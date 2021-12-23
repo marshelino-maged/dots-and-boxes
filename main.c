@@ -2,16 +2,12 @@
 #include <stdlib.h>
 #include "colors.h"
 #include "menu.h"
-
+#include "scanint.h"
+#include "struct.h"
 
 int main()
 {
     system("color");
-    int i;
-    i = print_menu();
-    print_menu2(i);
-    scanf("%d",i);
-
-
+    print_menu();
     return 0;
 }
